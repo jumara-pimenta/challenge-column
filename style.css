@@ -111,6 +111,8 @@
 
 }
 
+/* VERSION TABLET */
+
 @media (max-width: 375px) {
     .container {
         display: flex;
@@ -143,6 +145,39 @@
          font-size: 1rem;
      }
 
+}
+
+@media (max-width: 425px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-1, .column-2, .column-3{
+        height: 26rem;
+        width: 20rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .column-1 {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+    }
+    
+    .column-3 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0.5rem;   
+        border-bottom-left-radius: 0.5rem;   
+    }
+     
+     .column-1 .about-sedans, .column-2 .about-suvs, .column-3 .about-luxury {
+         margin: 2rem 3rem 3rem 2rem;
+         font-weight: 100;
+         font-size: 1rem;
+     }
 }
 
 
