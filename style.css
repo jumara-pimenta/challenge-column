@@ -1,11 +1,8 @@
- /* font-family: 'Lexend Deca', sans-serif;
- font-family: 'Big Shoulders Display', cursive; */
-
- *{
+*{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
- }
+}
 
  body {
      background: hsl(0, 0%, 95%);
@@ -82,3 +79,36 @@
 .column-3 .btn-luxury {
     color: hsl(179, 100%, 13%);
 }
+
+/* VERSION TABLET */
+
+@media (max-width: 768px) {
+
+    .column-1 {
+        margin-left: 5rem;
+        height: 28rem;
+    }    
+    
+    .column-3 {
+        margin-right: 5rem ;
+    }
+
+    .column-1 .sedans-title, .column-2 .suvs-title, .column-3 .luxury-title{
+        font-size: 1.5rem;
+    }
+
+    .column-1 .about-sedans, .column-2 .about-suvs, .column-3 .about-luxury {
+        margin: 2rem 3rem 4rem 2rem;
+        font-size: 0.8rem;
+    }
+
+    .column-1 .btn-sedans, .column-2 .btn-suvs, .column-3 .btn-luxury{
+        margin-left: 1.5rem;
+        padding: 0.6rem 1.5rem;
+        border-radius: 1.5rem;
+        margin-bottom: 2.7rem;
+    }
+
+}
+
+
