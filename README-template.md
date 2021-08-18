@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://column-card-challenge.netlify.app/)
+- Solution URL: [Column Card Challenge](https://column-card-challenge.netlify.app/)
 
 ## My process
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Linkedin - [Add your name here](https://www.linkedin.com/in/jumara-souza-pimenta/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jumara-pimenta)
+- Linkedin - [Jumara Pimenta](https://www.linkedin.com/in/jumara-souza-pimenta/)
+- Frontend Mentor - [@jumara-pimenta](https://www.frontendmentor.io/profile/jumara-pimenta)
